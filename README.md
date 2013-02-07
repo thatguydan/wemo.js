@@ -22,7 +22,7 @@ WeMo.discover(function(wemos) {
 });
 ```
 
-## Register your app
+## Simple example to toggle a WeMo
 ```javascript
 
 var client = WeMo.createClient('x.x.x.x'); // x.x.x.x being the IP of the WeMo obtained in the previous step
