@@ -18,7 +18,7 @@ var WeMo = require('wemo.js');
 
 WeMo.discover(function(wemos) {
 
-  console.log(stations);
+  console.log(wemos);
 });
 ```
 
