@@ -1,6 +1,6 @@
 {
   "name": "wemo.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js library for interacting with a Belkin WeMo",
   "main": "index.js",
   "scripts": {
