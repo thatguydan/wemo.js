@@ -31,10 +31,10 @@ client.state(function(err,state) {
 
   if (state===1) {
     // WeMo if on, turn it off
-    client.off();
+    client.switchOff();
   } else {
     // WeMo is off, turn it on
-    client.on();
+    client.switchOn();
   }
 });
 ```
@@ -48,10 +48,10 @@ Discovers WeMo power sockets on your local network.
 
 ## Client API
 
-### client.on(cb)
+### client.switchOn(cb)
 Attempts to turn the WeMo on. `cb` will be passed an error if this failed, or if the device is already on.
 
-### client.off(cb)
+### client.switchOff(cb)
 Attempts to turn the WeMo off. `cb` will be passed an error if this failed, or if the device is already off.
 
 ### client.state(cb)
