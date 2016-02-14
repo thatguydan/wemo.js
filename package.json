@@ -17,9 +17,9 @@
   "author": "Daniel Friedman",
   "license": "MIT",
   "dependencies": {
-    "request": "~2.12.0",
     "async": "~0.2.1",
-    "ssdp": "git://github.com/ninjablocks/node-ssdp.git",
-    "libxml-to-js": "~0.3.11"
+    "node-ssdp": "^2.2.1",
+    "request": "~2.12.0",
+    "xml2js": "^0.4.4"
   }
 }
